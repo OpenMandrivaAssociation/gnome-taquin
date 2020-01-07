@@ -21,6 +21,7 @@ BuildRequires:	pkgconfig(gio-2.0) >= 2.40.0
 BuildRequires:	pkgconfig(librsvg-2.0)
 BuildRequires:	pkgconfig(gsound)
 BuildRequires:	pkgconfig(libcanberra-gtk3)
+BuildRequires:  librsvg-vala-devel
 # For help
 Requires:	yelp
 
