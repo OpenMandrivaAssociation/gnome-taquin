@@ -1,7 +1,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-taquin
-Version:	3.34.3
+Version:	3.34.4
 Release:	1
 Summary:	GNOME Taquin game
 License:	GPLv2+ and CC-BY-SA
