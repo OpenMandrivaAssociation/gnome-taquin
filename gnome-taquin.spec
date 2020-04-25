@@ -48,4 +48,5 @@ Test your logic skills in this number grid puzzle.
 %{_datadir}/%{name}/
 %{_iconsdir}/*/*/apps/org.gnome.Taquin*
 %{_datadir}/metainfo/org.gnome.Taquin.appdata.xml
+%{_datadir}/dbus-1/services/org.gnome.Taquin.service
 %{_mandir}/man6/%{name}.6*
