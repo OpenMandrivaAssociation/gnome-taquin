@@ -2,12 +2,13 @@
 
 Name:		gnome-taquin
 Version:	3.38.1
-Release:	2
+Release:	3
 Summary:	GNOME Taquin game
 License:	GPLv2+ and CC-BY-SA
 Group:		Games/Puzzles
 URL:		https://wiki.gnome.org/Apps/Taquin
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+Patch0:   https://gitlab.gnome.org/GNOME/gnome-taquin/-/commit/99dea5e7863e112f33f16e59898c56a4f1a547b3.patch
 BuildRequires:	pkgconfig(pygobject-3.0) >= 2.28.3
 BuildRequires:	gettext
 BuildRequires:	itstool
@@ -30,6 +31,7 @@ Test your logic skills in this number grid puzzle.
 
 %prep
 %setup -q
+%autopatch -p1
 
 %build
 %meson
