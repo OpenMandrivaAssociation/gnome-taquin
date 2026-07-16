@@ -4,7 +4,7 @@
 
 Name:		gnome-taquin
 Version:	3.38.1
-Release:	9
+Release:	10
 Summary:	GNOME Taquin game
 License:	GPLv2+ and CC-BY-SA
 Group:		Games/Puzzles
